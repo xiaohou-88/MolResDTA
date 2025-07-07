@@ -13,7 +13,7 @@ This repository contains the source code for **MolRes-DTA**, a deep learning fra
 - **Multi-modality Drug Representation**: Combines atom-level topology with functional group semantics.
 - **Residue-aware Protein Encoding**: Combine residue-aware with attention and multi-scale convolution.
 - **State-of-the-art Performance**: Achieved SOTA level on the Davis dataset.
-- First analysis of the effects of different modal drugs on drugs of different sizes.
+- The first study to systematically explore the link between molecular size and multimodal fusion.
 
 ---
 
@@ -31,12 +31,14 @@ cp -r TEFDTA/data ./data
 ```bash
 git clone https://github.com/xiaohou-88/MolResDTA.git
 cd MolResDTA
+```
 
 2.(Optional but recommended) Create a virtual environment:
 
 ```bash
 conda create -n molres-dta python=3.10
 conda activate molres-dta
+```
 
 3.Clone this repository:
 
