@@ -24,6 +24,7 @@ We use the datasets provided by the [TEFDTA project](https://github.com/lizongqu
 ```bash
 git clone https://github.com/lizongquan01/TEFDTA
 cp -r TEFDTA/data ./data
+```
 
 ## 🛠️ Installation
 1.Clone this repository:
