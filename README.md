@@ -44,12 +44,14 @@ conda activate molres-dta
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## 🚀 Usage
 Run training or evaluation by executing:
 
 ```bash
 python main.py
+```
 
 ## 📁 Project Structure
 
@@ -62,6 +64,7 @@ MolRes-DTA/
 ├── main.py              # Main entry point
 ├── requirements.txt
 └── README.md
+```
 
 ## 📖 Citation
 The citation will be available once the paper is published.
