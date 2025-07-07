@@ -60,9 +60,11 @@ python main.py
 MolRes-DTA/
 │
 ├── data/                # Input datasets (from TEFDTA)
-├── models/              # Model architectures
-├── utils/               # Utility scripts
+├── test/
+├── model.py              # Model architectures
+├── metrics.py
 ├── main.py              # Main entry point
+├── peocess_data.py
 ├── requirements.txt
 └── README.md
 ```
