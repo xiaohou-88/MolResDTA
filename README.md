@@ -59,7 +59,7 @@ python main.py
 ```bash
 MolRes-DTA/
 │
-├── data/                # Input datasets (from TEFDTA)
+├── data/                
 ├── test/
 ├── model.py              # Model architectures
 ├── metrics.py
