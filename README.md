@@ -1,6 +1,6 @@
 # MolRes-DTA
 
-**MolRes-DTA: A Molecular-Modality Fusion and Residue-Aware Framework for Drug–Target Affinity Prediction**
+**MolRes-DTA: A Molecular-Multiview Fusion and Residue-Aware Framework for Drug–Target Affinity Prediction**
 
 This repository contains the source code for **MolRes-DTA**, a deep learning framework for drug–target affinity (DTA) prediction. The method integrates multi-granular drug molecular features and residue-aware protein representations, aiming to improve prediction accuracy across drugs of varying complexity.
 
@@ -10,7 +10,7 @@ This repository contains the source code for **MolRes-DTA**, a deep learning fra
 
 ## 🔍 Highlights
 
-- **Multi-modality Drug Representation**: Combines atom-level topology with functional group semantics.
+- **Multi-multiview Drug Representation**: Combines atom-level topology with functional group semantics.
 - **Residue-aware Protein Encoding**: Combine residue-aware with attention and multi-scale convolution.
 - **State-of-the-art Performance**: Achieved SOTA level on the Davis dataset.
 - The first study to systematically explore the link between molecular size and multimodal fusion.
