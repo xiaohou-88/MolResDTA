@@ -9,7 +9,7 @@ from process_data import DTAData, CHARISOSMILEN, CHARPROTLEN, MACCSLEN
 from train_and_test import train
 from process_data import collate_fn
 
-MODEL_NAME = "MorResDTA"
+MODEL_NAME = "MolResDTA"
 BATCH_SIZE = 256
 DATASET = "davis"                                  
 
