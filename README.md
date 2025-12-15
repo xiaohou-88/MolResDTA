@@ -41,14 +41,14 @@ conda create -n molres-dta python=3.10
 conda activate molres-dta
 ```
 
-3.Install package:
+3.Install packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
 ## 🚀 Usage
-Run training or evaluation by executing:
+Run training:
 
 ```bash
 python main.py
@@ -61,7 +61,7 @@ MolRes-DTA/
 │
 ├── data/                
 ├── test/
-├── model.py              # Model architectures
+├── model.py              
 ├── metrics.py
 ├── main.py              # Main entry point
 ├── peocess_data.py
