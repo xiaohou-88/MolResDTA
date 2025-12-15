@@ -41,7 +41,7 @@ conda create -n molres-dta python=3.10
 conda activate molres-dta
 ```
 
-3.Clone this repository:
+3.Install package:
 
 ```bash
 pip install -r requirements.txt
