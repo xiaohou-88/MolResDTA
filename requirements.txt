@@ -1,12 +1,15 @@
-torch>=2.5.0
-torch-geometric>=2.6.0
-rdkit
-scipy
-numpy
-pandas
-matplotlib
-networkx
-tqdm
-pyyaml
-tensorboardX
-###If you are using CUDA 12 and its corresponding PyTorch, it is recommended to use pip install torch torch torch vision torch audio - index url https://download.pytorch.org/whl/cu121 Install PyTorch corresponding to CUDA, and then install other dependencies.
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+torch-geometric==2.6.1
+
+numpy==2.1.2
+pandas==2.2.3
+scipy==1.15.3
+scikit-learn==1.7.2
+tensorboard==2.18.0
+tensorboardx==2.6.2.2
+tqdm==4.66.6
+
+# rdkit is recommended to install via conda-forge:
+# conda install -c conda-forge rdkit==2024.09.2
