@@ -148,7 +148,7 @@ MolRes-DTA/
 ├── model.py              
 ├── metrics.py
 ├── main.py              # Main entry point
-├── peocess_data.py
+├── process_data.py
 ├── train_and_test.py
 ├── test_simple.py 
 ├── requirements.txt
