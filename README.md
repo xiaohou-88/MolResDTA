@@ -32,14 +32,18 @@ cp -r TEFDTA/data ./data
 
 ### Requirements (Software Libraries)
 Tested environment (recommended):
-- Python 3.10
-- PyTorch (torch)
-- NumPy (numpy)
-- Pandas (pandas)
-- SciPy (scipy)
-- TensorBoard (tensorboard)
-- RDKit (rdkit)  *(used for SMILES processing / MACCS keys in `process_data.py`)*
-- PyTorch Geometric (torch_geometric) *(used for GCN/GAT in `model.py`)*
+- OS: Linux
+- Python: 3.10.13
+- PyTorch: 2.5.1
+- CUDA runtime (PyPI wheels): cu12 (CUDA 12.x), e.g., `nvidia-cuda-runtime-cu12==12.4.127`
+- torch-geometric: 2.6.1
+- rdkit: 2024.09.2
+- numpy: 2.1.2
+- pandas: 2.2.3
+- scipy: 1.15.3
+- scikit-learn: 1.7.2
+- tensorboard: 2.18.0
+- tqdm: 4.66.6
 
 Install dependencies:
 ```bash
