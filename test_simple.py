@@ -46,9 +46,7 @@ def build_model(device):
 def load_checkpoint(model, ckpt_path: str, map_location):
     ckpt = torch.load(ckpt_path, map_location=map_location)
 
-    # 兼容两种保存格式：
-    # 1) {'model_state_dict': ...}
-    # 2) 直接 state_dict
+   
     if isinstance(ckpt, dict) and "model_state_dict" in ckpt:
         state_dict = ckpt["model_state_dict"]
     else:
@@ -88,7 +86,6 @@ def main():
     orig_open = builtins.open
 
     def open_redirect(file, mode="r", *open_args, **open_kwargs):
-        # train_and_test.test() 固定写 prediction.txt，这里重定向到 pred_out
         if file == "prediction.txt":
             file = pred_out
         return orig_open(file, mode, *open_args, **open_kwargs)
